@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7583e3259b27bcd498b3393556d5874f, type: 3}
+  m_Name: FacctoryRoomsData 3
+  m_EditorClassIdentifier: 
+  rooms:
+  - {fileID: 1643174218099660099, guid: 27f6390e33c3ac94782057037bffe78a, type: 3}
+  - {fileID: 2638280464447910550, guid: 1d4627f8f6ea26e47af4b9db97d7be62, type: 3}
+  - {fileID: 8897862712505291108, guid: 24b1eb15190931947b569b7eb3624ade, type: 3}
+  - {fileID: 8421463116093772025, guid: 28011d13d25ac5848afbc3552be33aad, type: 3}
+  - {fileID: 1709332956553716919, guid: c62a41b26adfd6f41b46fa17bc5f64d5, type: 3}
+  - {fileID: 3230796488291633889, guid: a633aa223c2edfe438236044f4152ee7, type: 3}

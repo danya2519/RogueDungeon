@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30fbfe24c2ad8ae42bf34151c1934bca, type: 3}
+  m_Name: PlanetariumItemPool
+  m_EditorClassIdentifier: 
+  roomItems:
+  - name: Mars
+    itemPrefab: {fileID: 2082699151072282305, guid: 9128d498e4e73ad449a63320f53ff9f0, type: 3}
+    itemIcon: {fileID: 21300000, guid: 3fe2ee7acb09d3d4b9a44dcaf4be778f, type: 3}
+    damage: 10
+    damageMultiplier: 0
+    speed: 2
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 5728699476056649382, guid: 96c2e714e96ffe74bb1e48cf2b24a135, type: 3}
+    shootTime: 1
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Jupiter
+    itemPrefab: {fileID: 2082699151072282305, guid: bb44c8038685ab54b8518fe67f3387b8, type: 3}
+    itemIcon: {fileID: 21300000, guid: 56376508c8e8d234d87bc37d53438234, type: 3}
+    damage: 10
+    damageMultiplier: 0
+    speed: 3
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 1095787749935704, guid: 4a2f456a61fbe33428e83dae9e6e69c0, type: 3}
+    shootTime: 2
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Earth
+    itemPrefab: {fileID: 2082699151072282305, guid: 59dbdaf7efb7c234d968cefc1c756bcf, type: 3}
+    itemIcon: {fileID: 21300000, guid: 502ab9f82637b4c4e99fc90174bd5cab, type: 3}
+    damage: 20
+    damageMultiplier: 0
+    speed: 3
+    shotSpeed: -1
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Sun
+    itemPrefab: {fileID: 2082699151072282305, guid: c54c894f3e285b740bc8eb1c0bf9b607, type: 3}
+    itemIcon: {fileID: 21300000, guid: c8caab74113d8a7468df3d0557c0a55c, type: 3}
+    damage: 10
+    damageMultiplier: 0
+    speed: 5
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 2958560438906299098, guid: d273b8a8711a1f54d8f04e912b222c3e, type: 3}
+    shootTime: 0.75
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Help From Above
+    itemPrefab: {fileID: 2082699151072282305, guid: a6f90b22599b8bb4e8839417a2d72fa9, type: 3}
+    itemIcon: {fileID: 21300000, guid: 6e5acafaf8ab7d74c9e7edd50d078d07, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 4429205445325448497, guid: 45b1450a672476648a6201725478f497, type: 3}
+    achivmentId: 23
+  - name: Keys from UFO
+    itemPrefab: {fileID: 2082699151072282305, guid: 419cc3087992d1540a14d26f236a1491, type: 3}
+    itemIcon: {fileID: 21300000, guid: d598bac838a70894b8bfe6fbf4398cda, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 3110173245032936079, guid: 659b2b6863be555458cb68387c3be322, type: 3}
+    achivmentId: 0

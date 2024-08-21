@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d238ee97bdaac4ba22509a6a008450, type: 3}
+  m_Name: secondFloorBoss 1
+  m_EditorClassIdentifier: 
+  bossDataList:
+  - roomPrefab: {fileID: 7334132307443302245, guid: 84011813ad9c74e4c817f5054e11ec53, type: 3}
+  - roomPrefab: {fileID: 7334132307443302245, guid: 9a760e43cf175ff4995e32c2a5738950, type: 3}
+  - roomPrefab: {fileID: 7334132307443302245, guid: 0bc88d8498bfe7242931cf56a5241735, type: 3}

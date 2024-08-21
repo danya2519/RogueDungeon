@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7583e3259b27bcd498b3393556d5874f, type: 3}
+  m_Name: CavesRoomsData 1
+  m_EditorClassIdentifier: 
+  rooms:
+  - {fileID: 1643174218099660099, guid: dbb6da3ce2beb7243b02e644f6b909f5, type: 3}
+  - {fileID: 2638280464447910550, guid: 7eed6a779b558f04c9a88c0d02e95cb6, type: 3}
+  - {fileID: 8897862712505291108, guid: 520f615aab4dfdc4d9863f3c9822ef7d, type: 3}
+  - {fileID: 8421463116093772025, guid: db026fbb81536a94a985187c77c161fd, type: 3}
+  - {fileID: 1709332956553716919, guid: 4b738554702e3274cb962297a47de681, type: 3}
+  - {fileID: 8897862712505291108, guid: 520f615aab4dfdc4d9863f3c9822ef7d, type: 3}
+  - {fileID: 8897862712505291108, guid: 520f615aab4dfdc4d9863f3c9822ef7d, type: 3}
+  - {fileID: 8897862712505291108, guid: 520f615aab4dfdc4d9863f3c9822ef7d, type: 3}

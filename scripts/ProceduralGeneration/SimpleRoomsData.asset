@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7583e3259b27bcd498b3393556d5874f, type: 3}
+  m_Name: SimpleRoomsData
+  m_EditorClassIdentifier: 
+  rooms:
+  - {fileID: 1643174218099660099, guid: 5bf83472de844cf41bdb7a3e44a9c3b4, type: 3}
+  - {fileID: 2638280464447910550, guid: b71743b1eecab364ba9c9fc0592798c0, type: 3}
+  - {fileID: 8897862712505291108, guid: a42671bc8eb35c943b60cc017b8d68d9, type: 3}
+  - {fileID: 8421463116093772025, guid: 0fd29a047ae62884da48f0b3fc81f175, type: 3}
+  - {fileID: 1709332956553716919, guid: 2ded7470830940f428fcc635d90b7927, type: 3}
+  - {fileID: 8897862712505291108, guid: a42671bc8eb35c943b60cc017b8d68d9, type: 3}
+  - {fileID: 8897862712505291108, guid: a42671bc8eb35c943b60cc017b8d68d9, type: 3}
+  - {fileID: 8897862712505291108, guid: a42671bc8eb35c943b60cc017b8d68d9, type: 3}

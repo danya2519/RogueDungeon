@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46028d2726092a34cbcfe063c5929db5, type: 3}
+  m_Name: Factory
+  m_EditorClassIdentifier: 
+  enemyDataList:
+  - enemyPrefab: {fileID: 6631842524839741637, guid: a3265709f8d1c59429860d301ce69de1, type: 3}
+  - enemyPrefab: {fileID: 8773369918655905395, guid: fa052b80faea3b04b8c0e7760d4f727e, type: 3}
+  - enemyPrefab: {fileID: 8773369918655905395, guid: a9bc295e6606efc419c912d7ae0ae8c0, type: 3}
+  - enemyPrefab: {fileID: 2772487999199307217, guid: 3d36add9ca663f54586e140d438534b9, type: 3}
+  - enemyPrefab: {fileID: 2772487999199307217, guid: 2aa3a519c4b425142bbecf4dec18bc91, type: 3}
+  - enemyPrefab: {fileID: 2772487999199307217, guid: d63b78657c518394dbbe65506dc9bb69, type: 3}
+  - enemyPrefab: {fileID: 7986963881899504825, guid: 4a4663ba03a434a4798794b4fa804f3d, type: 3}
+  - enemyPrefab: {fileID: 7862743686688050336, guid: 48fb43de4bdbcad4cb366af6fdcec469, type: 3}
+  - enemyPrefab: {fileID: 2300041539767042616, guid: ee8666952f81c2b45940b67c80a6360d, type: 3}
+  - enemyPrefab: {fileID: 3141437302469827483, guid: 6e1834ec8bd366f4ebf91f77bee894e1, type: 3}
+  - enemyPrefab: {fileID: 6304884946070049822, guid: c67f0e2441cb66547b9f49dbfc779644, type: 3}
+  - enemyPrefab: {fileID: 495597587081997925, guid: b876e6d8d5132624dba1dbf0e883e08f, type: 3}
+  - enemyPrefab: {fileID: 4842101835667572599, guid: f2ee2a11930b7a7418b58cee0fbc7cbc, type: 3}
+  - enemyPrefab: {fileID: 5985346652845487506, guid: ec26ce50bfda2f3408952116716b5b75, type: 3}
+  - enemyPrefab: {fileID: 1614669132401551418, guid: f52ea6872790c204cabbe8110fa9b7b8, type: 3}
+  - enemyPrefab: {fileID: 6401184191502707667, guid: a990d766ef20d6543be020623ca040bd, type: 3}
+  - enemyPrefab: {fileID: 1465359150737549768, guid: 6d985cc34a4a5574685fe4a0a24a36b4, type: 3}
+  - enemyPrefab: {fileID: 3636923014267822344, guid: 0907b5a1e5eb2c647bfcdffc16d0e231, type: 3}

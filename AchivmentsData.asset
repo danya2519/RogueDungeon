@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c425dc150833959418d756eab3094d52, type: 3}
+  m_Name: AchivmentsData
+  m_EditorClassIdentifier: 
+  Achivment:
+  - name: Default
+    isUnlocked: 1
+    Id: 0
+    itemIcon: {fileID: 21300000, guid: 00f0d6c89e97f634dbf0089ec09aa3ab, type: 3}
+  - name: BigTrain
+    isUnlocked: 0
+    Id: 1
+    itemIcon: {fileID: 21300000, guid: d520e07ea23fdaf46ab1cbfa68777dfb, type: 3}
+  - name: Core
+    isUnlocked: 0
+    Id: 2
+    itemIcon: {fileID: 21300000, guid: f6dde40d39e40cf4cba35ad3e899477e, type: 3}
+  - name: PickAxe
+    isUnlocked: 0
+    Id: 3
+    itemIcon: {fileID: 21300000, guid: f2a5a1507c0d609489cdb384f5836339, type: 3}
+  - name: Pressent
+    isUnlocked: 0
+    Id: 4
+    itemIcon: {fileID: 21300000, guid: bc80404975e6a644993ad6fe5c23649e, type: 3}
+  - name: Connection
+    isUnlocked: 0
+    Id: 5
+    itemIcon: {fileID: 21300000, guid: 56c962df94b7e4145866fafff5ea73b4, type: 3}
+  - name: Alzheimer
+    isUnlocked: 0
+    Id: 6
+    itemIcon: {fileID: 21300000, guid: 96843116e72d9ce45aaefa012d21e41c, type: 3}
+  - name: PlanZ
+    isUnlocked: 0
+    Id: 7
+    itemIcon: {fileID: 21300000, guid: 06bc6215ec30fb84aa7015ea127b7cdb, type: 3}
+  - name: BlackHole
+    isUnlocked: 0
+    Id: 8
+    itemIcon: {fileID: 21300000, guid: 06bc6215ec30fb84aa7015ea127b7cdb, type: 3}
+  - name: Bubbels
+    isUnlocked: 0
+    Id: 9
+    itemIcon: {fileID: 21300000, guid: 564e51fa02a1bb44c89412fda5c05526, type: 3}
+  - name: BubleBoom
+    isUnlocked: 0
+    Id: 10
+    itemIcon: {fileID: 21300000, guid: 0f9054278bf7b8b4c848f18ab03366ca, type: 3}
+  - name: Dropper
+    isUnlocked: 0
+    Id: 11
+    itemIcon: {fileID: 21300000, guid: 05dac5634be4e274d8eda9c132006b91, type: 3}
+  - name: Arcade
+    isUnlocked: 0
+    Id: 12
+    itemIcon: {fileID: 21300000, guid: adc9d921ceec9fe4ebbb95a00e0890ab, type: 3}
+  - name: SmartBomb
+    isUnlocked: 0
+    Id: 13
+    itemIcon: {fileID: 21300000, guid: 282f760c1dfed3e4d8809d63cd86c12b, type: 3}
+  - name: Charity
+    isUnlocked: 0
+    Id: 14
+    itemIcon: {fileID: 21300000, guid: 65b9ae208c546f342a44bf8c4f0c2c8e, type: 3}
+  - name: MoneyBag
+    isUnlocked: 0
+    Id: 15
+    itemIcon: {fileID: 21300000, guid: 1e1b3190c1cbfd74dbd6bb8ac0390438, type: 3}
+  - name: MarsRoom
+    isUnlocked: 0
+    Id: 16
+    itemIcon: {fileID: 21300000, guid: fe19ff3e1cbb14d47ac265fa6cfeb68c, type: 3}
+  - name: VenusRoom
+    isUnlocked: 0
+    Id: 17
+    itemIcon: {fileID: 21300000, guid: 375797b6bd9ffed469d621c3a45ca985, type: 3}
+  - name: Medice
+    isUnlocked: 0
+    Id: 18
+    itemIcon: {fileID: 21300000, guid: a526a846fbbf31043bbed4ef63c02cbe, type: 3}
+  - name: WaterRoom
+    isUnlocked: 0
+    Id: 19
+    itemIcon: {fileID: 21300000, guid: 3be4957344f34084397e6008199fbeaf, type: 3}
+  - name: CartRoom
+    isUnlocked: 0
+    Id: 20
+    itemIcon: {fileID: 21300000, guid: 63c628d2d34faa34492f03bb1d20cd90, type: 3}
+  - name: ElectroRoom
+    isUnlocked: 0
+    Id: 21
+    itemIcon: {fileID: 21300000, guid: eeb41319be3e0ae4d909fa01d6c1984f, type: 3}
+  - name: Planetarium
+    isUnlocked: 0
+    Id: 22
+    itemIcon: {fileID: 21300000, guid: d520e07ea23fdaf46ab1cbfa68777dfb, type: 3}
+  - name: Orbital
+    isUnlocked: 0
+    Id: 23
+    itemIcon: {fileID: 21300000, guid: 4e6bf185f112f8c41ada447d5de61d3d, type: 3}
+  - name: BloodTear
+    isUnlocked: 0
+    Id: 24
+    itemIcon: {fileID: 21300000, guid: b3cd8a3f820cbe845b1149511042faa1, type: 3}
+  - name: PreHistoricalPlant
+    isUnlocked: 0
+    Id: 25
+    itemIcon: {fileID: 21300000, guid: 7d4d3741e837a354f83f7e2156a9b6b8, type: 3}
+  - name: Excalibur
+    isUnlocked: 0
+    Id: 26
+    itemIcon: {fileID: 21300000, guid: 64762aed468800f4791efcdd41d591bc, type: 3}
+  - name: Razor
+    isUnlocked: 0
+    Id: 27
+    itemIcon: {fileID: 21300000, guid: 02478fd9510d8124b996826f81028b6c, type: 3}
+  - name: Horn
+    isUnlocked: 0
+    Id: 28
+    itemIcon: {fileID: 21300000, guid: 17aede8b59f8d654db53c35f2dcfed58, type: 3}

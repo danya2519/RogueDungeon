@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad74cc242b5d7a64787fcfe2ce641c85, type: 3}
+  m_Name: Trinkets
+  m_EditorClassIdentifier: 
+  Cards:
+  - name: The World
+    itemPrefab: {fileID: 1783826225382548511, guid: 069862af910e64244b7004348ae08086, type: 3}
+    itemIcon: {fileID: 21300000, guid: fb50c09decbff6541aa937654812cd1a, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: 49e151bf47cf2094f9e2e793feffe74f, type: 3}
+  - name: Justice
+    itemPrefab: {fileID: 1783826225382548511, guid: d7a84dac4430ae84d8e14c7c9cda14e5, type: 3}
+    itemIcon: {fileID: 21300000, guid: 4de40f99c7acea3428b4a1a8400cb293, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: 634f8aa40476f794983efa854709b635, type: 3}
+  - name: Wheel of fortune
+    itemPrefab: {fileID: 1783826225382548511, guid: 5c7ae7f527ca9234494b0c585d93a407, type: 3}
+    itemIcon: {fileID: 21300000, guid: 4de40f99c7acea3428b4a1a8400cb293, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: 892d2844bea3f2c43989af9d6f96f76e, type: 3}
+  - name: Lovers
+    itemPrefab: {fileID: 1783826225382548511, guid: 4d73be0dc5536944c9de1e4b43663032, type: 3}
+    itemIcon: {fileID: 21300000, guid: 64a97c03d020dbf45bd8fa1e3a7d7c95, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: eedad12ab418b994681dce55f927f59c, type: 3}
+  - name: Deaths
+    itemPrefab: {fileID: 1783826225382548511, guid: ade66a77a91003c419d25022b23ac313, type: 3}
+    itemIcon: {fileID: 21300000, guid: 5f16d56703b4c034da81c8e908038aea, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: d941279a7d7930e429378015317de3aa, type: 3}
+  - name: Towers
+    itemPrefab: {fileID: 1783826225382548511, guid: a94cefbcd9ade3f44a69cd228092b013, type: 3}
+    itemIcon: {fileID: 21300000, guid: 9f07a4b6e7fb4ba479002b2b9385c48b, type: 3}
+    CardPrefab: {fileID: 8747405817819522447, guid: 994d1d551bdf3814696bf00c70aeaca1, type: 3}

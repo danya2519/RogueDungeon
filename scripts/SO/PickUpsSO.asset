@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078fff70d64b2014892372ae36fd3a3c, type: 3}
+  m_Name: PickUpsSO
+  m_EditorClassIdentifier: 
+  PickUpsTypeList:
+  - {fileID: 5120318069456507382, guid: e1cf78acbae05a549bd854fc298bea6b, type: 3}
+  - {fileID: 5910388700201969164, guid: db3a1e85dc5c1744ba80ae6f7c17edad, type: 3}
+  - {fileID: 1992478769782145149, guid: 8e1d45df7cc301d409bd56819849bd30, type: 3}
+  - {fileID: 8989573374042822383, guid: fe7070124f2189f4987e1007d94cb601, type: 3}
+  - {fileID: 3170840421452402924, guid: 55093b390ef71714da11802fe5a333d1, type: 3}
+  - {fileID: 2999077637145020257, guid: 2cc3027f7b846a64ea88caf9903c029b, type: 3}
+  - {fileID: 7838995757715656074, guid: de4f240683b0d05478f24ee9542e14f1, type: 3}
+  - {fileID: 4651584397780602773, guid: 40773a489e720b7489c27a307c8216ac, type: 3}
+  - {fileID: 8087844962243803196, guid: 31b6f33eadda80743a3bbe2cc23fbab1, type: 3}
+  - {fileID: 2639987655315139345, guid: b7a1bb467a20c6e4793c908b05ad83cd, type: 3}
+  - {fileID: 7854841926228057700, guid: a51912a0ef0b7ad4b9182e57f8a3dd04, type: 3}
+  - {fileID: 6241337570008940489, guid: ad667521b10f7ce4399dcc02928ede7c, type: 3}
+  - {fileID: 405356256712041774, guid: c2aa2f1ade028ab4fba5235eea94b3b6, type: 3}
+  - {fileID: 1054328676105280569, guid: ef90141012eab2b47838d2e7839b2c93, type: 3}

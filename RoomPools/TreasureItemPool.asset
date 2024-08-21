@@ -1,0 +1,775 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30fbfe24c2ad8ae42bf34151c1934bca, type: 3}
+  m_Name: TreasureItemPool
+  m_EditorClassIdentifier: 
+  roomItems:
+  - name: Canser
+    itemPrefab: {fileID: 2082699151072282305, guid: 6fc35b1c18fc3814db9f8f087e4d08eb, type: 3}
+    itemIcon: {fileID: 21300000, guid: 7925859814cd88d49b2717744863bf4b, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: -0.25
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 2
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Coal
+    itemPrefab: {fileID: 2082699151072282305, guid: 8a51f12ff0a1bbe42b7ad1c41cac5977, type: 3}
+    itemIcon: {fileID: 21300000, guid: 36873a440dba1a942bec106678037371, type: 3}
+    damage: 2
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: CryBaby
+    itemPrefab: {fileID: 2082699151072282305, guid: 9859b809f362fb84cb6ee702b3a2c9af, type: 3}
+    itemIcon: {fileID: 21300000, guid: d3a94e9f953ac414ebf9690214dd4c98, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: -0.5
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 5728699476056649382, guid: 46f28a4387656f0409291ae501f9525f, type: 3}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: DieInFire
+    itemPrefab: {fileID: 2082699151072282305, guid: 968228b745b5fcf42be18e86da47892f, type: 3}
+    itemIcon: {fileID: 21300000, guid: ff5fe870e41d3e941a14d825376a8e85, type: 3}
+    damage: 5
+    damageMultiplier: 0
+    speed: 1
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 5728699476056649382, guid: 40ff8ac47f1b48c42a714da1a0e6dc74, type: 3}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: ElectroBorn
+    itemPrefab: {fileID: 2082699151072282305, guid: 005937f52a68b9f48acc3d99d6551b00, type: 3}
+    itemIcon: {fileID: 21300000, guid: 5c920f41d7242964bb4c237f8b28165a, type: 3}
+    damage: 5
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 5728699476056649382, guid: 96c2e714e96ffe74bb1e48cf2b24a135, type: 3}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Gemini
+    itemPrefab: {fileID: 2082699151072282305, guid: f3b4a96d1a7af414b9859cb3601b374a, type: 3}
+    itemIcon: {fileID: 21300000, guid: 0b79d912e6880c946bdef10623209c6e, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 2
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: HolyMantle
+    itemPrefab: {fileID: 2082699151072282305, guid: 72fdbb9a2ab375d469eaef8bb758d0c7, type: 3}
+    itemIcon: {fileID: 21300000, guid: 945a90f9974bdb84ab4a329a7e276068, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 2
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Leo
+    itemPrefab: {fileID: 2082699151072282305, guid: 73d9606fa4977714c8be55b30aad62d0, type: 3}
+    itemIcon: {fileID: 21300000, guid: 78c049d4a5a2aa341b974540bdc7cae2, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 1
+    scale: 2
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: MagicSpoon
+    itemPrefab: {fileID: 2082699151072282305, guid: bfbf816a24eddd848b44d2fe8ed13b78, type: 3}
+    itemIcon: {fileID: 21300000, guid: 0ca135970e6de914fb7e5dba464ceb58, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: -0.5
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 1174672382460819526, guid: c75e9283614934a49965cae08f83ebf9, type: 3}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Piscs
+    itemPrefab: {fileID: 2082699151072282305, guid: 410622da60fa20b4391113d24d590c95, type: 3}
+    itemIcon: {fileID: 21300000, guid: f46381adf006ae543a427d6ad2fdb3b8, type: 3}
+    damage: 5
+    damageMultiplier: 0
+    speed: 1
+    shotSpeed: -0.1
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Sagitarius
+    itemPrefab: {fileID: 2082699151072282305, guid: c4abcea7a2ad7de49a063be875433f2f, type: 3}
+    itemIcon: {fileID: 21300000, guid: 3cb4723440737214ab6c52a2678c8b43, type: 3}
+    damage: 5
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 1174672382460819526, guid: 8fe736e9b3b90184fbddac92a0ebda0f, type: 3}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: HotChicken
+    itemPrefab: {fileID: 2082699151072282305, guid: f67edd1a807363a429675d8c1f5a957b, type: 3}
+    itemIcon: {fileID: 21300000, guid: 6f6ac4aff6290864bb0b619c96560d4b, type: 3}
+    damage: 7
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Taurus
+    itemPrefab: {fileID: 2082699151072282305, guid: 97fab9a1323749a4fbdf3a106469b546, type: 3}
+    itemIcon: {fileID: 21300000, guid: b0f2d122570d8eb41bc1b8dd1554d063, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 2
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: BubbleGum
+    itemPrefab: {fileID: 2082699151072282305, guid: abc2988a3ef248947b7d8ae1f52036f1, type: 3}
+    itemIcon: {fileID: 21300000, guid: d736214499ec0804f8fe13d69a164faf, type: 3}
+    damage: -2
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: -1
+    shotSpeedMultiplier: 0
+    bulletSpeed: -2
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 8045143430779978374, guid: dfa38d2d7df13784492aa5a3b7518e9d, type: 3}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 9
+  - name: Laser
+    itemPrefab: {fileID: 2082699151072282305, guid: 89d01df432d28c74ba28a6642f65de47, type: 3}
+    itemIcon: {fileID: 21300000, guid: 95237fdc3a2a4614da86ba14e4909939, type: 3}
+    damage: 25
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0.5
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 1293375810718194, guid: 7e4b4a14c8d944f40ab4fdacb0695d3d, type: 3}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: BubbleBoom
+    itemPrefab: {fileID: 2082699151072282305, guid: 6b2b4b79155edfb4387cd688a9e0bc30, type: 3}
+    itemIcon: {fileID: 21300000, guid: 15351ea64502b704d988cfba9e28770f, type: 3}
+    damage: 50
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 2
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 8045143430779978374, guid: f694d0390476e1c48aa6e21866bd3a49, type: 3}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 10
+  - name: HateSyringe
+    itemPrefab: {fileID: 2082699151072282305, guid: 68d21e163c82c7645b2160ae3b98fdbe, type: 3}
+    itemIcon: {fileID: 21300000, guid: f27f40e7012619045bff70c4fe65a320, type: 3}
+    damage: 8
+    damageMultiplier: 0
+    speed: 2
+    shotSpeed: 0.25
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: StrongSyringe
+    itemPrefab: {fileID: 2082699151072282305, guid: fe336afe6ecd7a141988ca567ccbd785, type: 3}
+    itemIcon: {fileID: 21300000, guid: 15548c513283dd84cad8157ea8da97a3, type: 3}
+    damage: 15
+    damageMultiplier: 0
+    speed: -0.5
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: AcidSyringe
+    itemPrefab: {fileID: 2082699151072282305, guid: a3481079d3797454489107f89403986a, type: 3}
+    itemIcon: {fileID: 21300000, guid: 612421bdfcf33ef44b7a97c7469cfd3e, type: 3}
+    damage: 2
+    damageMultiplier: 0
+    speed: 1
+    shotSpeed: -0.5
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: FireSyringe
+    itemPrefab: {fileID: 2082699151072282305, guid: 511fdd76bbc0d8b4b9f3e4911448c6ef, type: 3}
+    itemIcon: {fileID: 21300000, guid: 98bcc26a2eb84514c8eac7b4685d9235, type: 3}
+    damage: 20
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 1
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: PanicSyringe
+    itemPrefab: {fileID: 2082699151072282305, guid: 60b703f2d923df7479a797396c07c3e2, type: 3}
+    itemIcon: {fileID: 21300000, guid: af9dad1c681f83541b0c9c9d7483dcd6, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 5
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: smallMedicine
+    itemPrefab: {fileID: 2082699151072282305, guid: 7f0631e45544f9a40a14402a21d62550, type: 3}
+    itemIcon: {fileID: 21300000, guid: 92e5c35c10c0e494ea4afb2a52ed993b, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 8197190262202179108, guid: 8e33c6e0d9b69824b945e1fcde614ef3, type: 3}
+    shootTime: 120
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 18
+  - name: Orden
+    itemPrefab: {fileID: 2082699151072282305, guid: a9f8a62c0be29ad4cb75b8b3209ca383, type: 3}
+    itemIcon: {fileID: 21300000, guid: 5a1dff135a9e4c34eaa595e4bc666a4e, type: 3}
+    damage: 15
+    damageMultiplier: 0
+    speed: 2
+    shotSpeed: -0.25
+    shotSpeedMultiplier: 0
+    bulletSpeed: 1
+    containers: 1
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: eyePatch
+    itemPrefab: {fileID: 2082699151072282305, guid: 2202d1809c6405f4381c89f71b3a0239, type: 3}
+    itemIcon: {fileID: 21300000, guid: cb0adde5a0a70d342821c1f2cc45c420, type: 3}
+    damage: 20
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 1
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: WhiteFlag
+    itemPrefab: {fileID: 2082699151072282305, guid: e0705efff6bd79a4687c21b0132286a3, type: 3}
+    itemIcon: {fileID: 21300000, guid: bfb818e0ff65d7849a09faa9137be128, type: 3}
+    damage: -10
+    damageMultiplier: 0
+    speed: 5
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 2
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: SmartBomb
+    itemPrefab: {fileID: 2082699151072282305, guid: 54dd8c92475003c45967c8ddec70a88c, type: 3}
+    itemIcon: {fileID: 21300000, guid: 61a02208fb8e32b408ffeb20de6c6eb8, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 3
+    sFX: {fileID: 3707089748607344426, guid: 5deb8df295af14745b4463f47be5a872, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 13
+  - name: RazorBlade
+    itemPrefab: {fileID: 2082699151072282305, guid: 6533974cc4e80b7489c0d2e72e9db091, type: 3}
+    itemIcon: {fileID: 21300000, guid: 812496bb140ee9342b61b31b153aabd6, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 0
+    sFX: {fileID: 1095787749935704, guid: 5231ccfac36c6424fb83d1fd10163063, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: NuclearCall
+    itemPrefab: {fileID: 2082699151072282305, guid: 988a48f314a94f6469849cd92d351dda, type: 3}
+    itemIcon: {fileID: 21300000, guid: cdc5290fa3fd97544b71e290ea91f7f9, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 12
+    sFX: {fileID: 1068927474717988, guid: 06b9063795ca5b54aa31740b163001c4, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 5
+  - name: Present
+    itemPrefab: {fileID: 2082699151072282305, guid: ad74c966448844d41a21421ea9e160ad, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2636aed718dc26d47bdf39d0dc09b80c, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 24
+    sFX: {fileID: 1745317313522571443, guid: 890d4fe77bbd73149903581800167b49, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 4
+  - name: SpiderCopter
+    itemPrefab: {fileID: 2082699151072282305, guid: 46e168f86968e6843a6b19b04dcf0d6f, type: 3}
+    itemIcon: {fileID: 21300000, guid: d40397844b1aa554e96ee6c93b1c6095, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 905345365985370326, guid: dcd8567b264448640ad19c091f10a761, type: 3}
+    achivmentId: 0
+  - name: 3dPrinter
+    itemPrefab: {fileID: 2082699151072282305, guid: 81f8d1432418d1f4c9f4a2d971ff1552, type: 3}
+    itemIcon: {fileID: 21300000, guid: 427f17514ddf78a44b9013478f59a5c6, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 7206223887669007559, guid: 6a8bbf6f3478bed479ef57dbd6a55e38, type: 3}
+    achivmentId: 0
+  - name: Brains
+    itemPrefab: {fileID: 2082699151072282305, guid: 9b27e41eea99bdd468bc91bc73143aa2, type: 3}
+    itemIcon: {fileID: 21300000, guid: 7f6a3ba5b0e02d8448aa8973b1828bda, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 5
+    sFX: {fileID: 8193604563781330841, guid: 64e1b20e95ed1284d80134d48ff292c1, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: gargona's head
+    itemPrefab: {fileID: 2082699151072282305, guid: 703efef35e024af4283b809b74ab6e14, type: 3}
+    itemIcon: {fileID: 21300000, guid: b230e945d16a59b4eae184191e7b8ead, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 4
+    sFX: {fileID: 691796428783090258, guid: 7dd06f3f9954a9145b8dde10b77d806a, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 0
+  - name: Prehistoric Plant
+    itemPrefab: {fileID: 2082699151072282305, guid: d8de968e5d412d242ba3bedada6114a5, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2cb6a6c93554e584a9282d6d44b7bd6e, type: 3}
+    damage: 5
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 644039848803788077, guid: f00a0e49b13d05d41a9f9dcc7f321329, type: 3}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 0}
+    achivmentId: 25
+  - name: Magic Sword
+    itemPrefab: {fileID: 2082699151072282305, guid: ca69bd9a01a40004ba291da786b7e650, type: 3}
+    itemIcon: {fileID: 21300000, guid: f53832da76c8e454aa524af6bfab925e, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 5342623516424850546, guid: d04619c1616b9a94f910d3f7b0564895, type: 3}
+    achivmentId: 26
+  - name: Horn
+    itemPrefab: {fileID: 2082699151072282305, guid: 763482cc432efa845876de297f8aa33a, type: 3}
+    itemIcon: {fileID: 21300000, guid: fc46a1eae113d1649a4aea4112d76d19, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 1
+    charge: 5
+    sFX: {fileID: 6961827252958041093, guid: c799259bca0d6904b87928390fc03288, type: 3}
+    baby: {fileID: 0}
+    achivmentId: 28
+  - name: Box
+    itemPrefab: {fileID: 2082699151072282305, guid: a2e2274e2d603f847a17c531bb35d937, type: 3}
+    itemIcon: {fileID: 21300000, guid: 9ee0f3bf081324840a7b80684bd0e122, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 1783826225382548511, guid: c67258c95001a77499ba5820926088e1, type: 3}
+    achivmentId: 0
+  - name: Pea
+    itemPrefab: {fileID: 2082699151072282305, guid: 7495a8bc53cf4694b89fd72ec9465e76, type: 3}
+    itemIcon: {fileID: 21300000, guid: 82d3ac17f20f6984c9f8571bd8900fb0, type: 3}
+    damage: 0
+    damageMultiplier: 0
+    speed: 0
+    shotSpeed: 0
+    shotSpeedMultiplier: 0
+    bulletSpeed: 0
+    containers: 0
+    scale: 0
+    scaleMultiplier: 0
+    projectile: {fileID: 0}
+    bullet: {fileID: 0}
+    shootTime: 0
+    isActive: 0
+    charge: 0
+    sFX: {fileID: 0}
+    baby: {fileID: 659628892701770793, guid: 52fc80eebf4ad13489001aa28a4c4e64, type: 3}
+    achivmentId: 0

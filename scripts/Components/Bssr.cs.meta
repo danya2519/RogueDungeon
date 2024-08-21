@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d36d7b035dd3f154a9388918ad296f93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - boss: {instanceID: 0}
+  - trapdoor: {fileID: 7183943929573798410, guid: d95604534804c06418c665061cda69d7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

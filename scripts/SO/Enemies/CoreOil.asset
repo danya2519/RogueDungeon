@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46028d2726092a34cbcfe063c5929db5, type: 3}
+  m_Name: CoreOil
+  m_EditorClassIdentifier: 
+  enemyDataList:
+  - enemyPrefab: {fileID: 6541318143831109077, guid: 35a3a07e9ed260a4488edac9b041f403, type: 3}
+  - enemyPrefab: {fileID: 6541318143831109077, guid: d408a58db5463714199072dc1690a050, type: 3}
+  - enemyPrefab: {fileID: 6541318143831109077, guid: c67ae514eed3290418bf64fd16283541, type: 3}
+  - enemyPrefab: {fileID: 5483742123019517002, guid: ee93d5575ced28b4c95a1d86389a80cf, type: 3}
+  - enemyPrefab: {fileID: 5930689628929798409, guid: f8ab9f055e0cd064dae6d84966a99414, type: 3}
+  - enemyPrefab: {fileID: 5930689628929798409, guid: 3a3df063baa37d244b871be72b801c30, type: 3}
+  - enemyPrefab: {fileID: 5930689628929798409, guid: ce38fd3a5f7f20e4a88af529883c08d5, type: 3}
+  - enemyPrefab: {fileID: 5930689628929798409, guid: 7227ededbf430f54c8b4ddc1ac57bc97, type: 3}
+  - enemyPrefab: {fileID: 7454275175708366149, guid: a1af6a71082ad0243b374a320824db3a, type: 3}
+  - enemyPrefab: {fileID: 8900852421684622042, guid: b7ded431afc1cf142bffb25d80905c3c, type: 3}
+  - enemyPrefab: {fileID: 5196114604750574430, guid: e010d3f6615959b42aa665b7bda44484, type: 3}
+  - enemyPrefab: {fileID: 2975587030334241343, guid: 1e74baa1ef507bf40858816063763c2c, type: 3}
+  - enemyPrefab: {fileID: 4958394196870547549, guid: d8dda7bc7d98ace4e80eda20adbe91eb, type: 3}
